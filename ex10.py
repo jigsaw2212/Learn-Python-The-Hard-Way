@@ -1,0 +1,26 @@
+#This exercise is about escape sequences
+#NOTE: None of the formatting styles work with %r, as it outputs the text in its raw form
+
+tabby_cat ="\tI'm tabbed in"
+persian_cat="I'm split\non a line"
+backlash_cat="I'm a \\ a \\ cat"
+
+fat_cat="""I'll do a list
+\t->Cat food
+\t->Fishies
+\t->Catnip\n\t->Grass
+"""
+
+print tabby_cat  
+print persian_cat
+print backlash_cat
+print fat_cat
+
+#Helping python around double and single quotes
+
+print "I am 6'2\" tall"
+#The above code escapes the double quote inside the string
+#\v prints a vertical tab, which is just skipping one line. An idle print statement would do the same
+
+print 'I am 6\'2" tall'
+#The above code escapes the single quote inside the string
