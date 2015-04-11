@@ -5,6 +5,9 @@ print 'Wait! There aren\'t 10 things in the list. Let\'s fix it'
 print ten_things
 
 stuff=ten_things.split(' ')
+#Here 'stuff' becomes a list. Splits after every space ' '.
+
+print stuff
 
 more_stuff=['Day', 'Night', 'Song', 'Frisbee', 'Corn', 'Banana']
 
@@ -18,7 +21,7 @@ print "There we go", stuff
 
 print "Let's do some things with stuff"
 
-print stuff[1]
+print stuff[0] #prints the second item, i.e. at the index 1
 print stuff[-1] #prints out the last item in the list
 print stuff.pop()
 
@@ -27,4 +30,5 @@ print '     '.join(stuff)
 string= ' '.join(stuff)
 print string
 print '#'.join(stuff[3:7])
-#joins from the index 3 (4th item) to the index 7 (8th item) items in the list with a '#' between them 
+#joins from the index 3 (4th item) to the index 6 (7th item) items in the list with a '#' between them 
+#Basically, join is the opposite of split. Split will break a string into a list, while join will make a string out of the elements in a list

@@ -1,10 +1,12 @@
 #Function and Variables
 
-def cheese_and_crackers(cheese_count, cracker_boxes):
+def cheese_and_crackers(cheese_count, cracker_boxes,check=10):
     print "We have %d boxes of cheese" %cheese_count
     print "We have %d boxes of crackers" %cracker_boxes
     print "Man! That's enough for a party!"
     print "Let's get a blanket.\n"
+    print 'check =', check+1
+    #check is just an idle variable created by me to prove the point that the number of formal arguments can be greater that the number of actual arguments
     
 
 print "We can give the arguments to the function directly:-"

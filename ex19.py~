@@ -1,10 +1,11 @@
 #Function and Variables
 
-def cheese_and_crackers(cheese_count, cracker_boxes):
+def cheese_and_crackers(cheese_count, cracker_boxes,check=10):
     print "We have %d boxes of cheese" %cheese_count
     print "We have %d boxes of crackers" %cracker_boxes
     print "Man! That's enough for a party!"
     print "Let's get a blanket.\n"
+    print 'check =', check+1
     
 
 print "We can give the arguments to the function directly:-"
@@ -28,7 +29,7 @@ cheese= raw_input("Enter no of cheese boxes: ")
 crackers= raw_input("Enter no of crackers: ")
 
 cheese_and_crackers(int(cheese), int(crackers))
-#Type casting the variables into integers
+#Type casting the variables into integers. Required because raw_input() converts everything into a string.
 #OR, input() will also work!
 
 #------------------------------------------

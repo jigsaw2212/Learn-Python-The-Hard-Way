@@ -49,8 +49,6 @@ list2= [6,4,7,1,8,10]
 
 fruits= ['apples','pears','banana','Peach','grapes','Oranges']
 
-
-
 print list1.sort()
 #sort() function returns Null, actually sorts the list in place
 print list1

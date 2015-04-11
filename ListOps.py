@@ -33,6 +33,7 @@ print list1
 
 print list1.index(5)
 #Returns index at the first occurrence of 5
+#This is an important function! Can be used to solve many problems
 
 print "No of times 4 occurs =",list1.count(4)
 

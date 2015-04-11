@@ -1,6 +1,5 @@
-from itertools import *
 
-num=10
+num=10 
 num2=20
 if num:
     print 'hello'
@@ -17,8 +16,9 @@ print dict1
 num, num2=num2, num
 print num
 print num2
+#^This above method can prove to be extremely important! Do learn this, and also list1.index(value), which returns the index at which the value is present
 
-success=[x for x in [1,2,3,4,5,6] if x%2==0 ]
+success=[x for x in range(10) if x%2==0 ]
 print success
 
 print range(3,10,4)
@@ -30,6 +30,9 @@ print range(3,10,4)
 sum= lambda x,y: x+y
 print sum(2,3)
 #prints the value 5
+
+from itertools import *
+
 
 #the following code gives us all the permutations of list a
 a=[1,2,3,4]
